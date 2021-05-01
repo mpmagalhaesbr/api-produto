@@ -1,15 +1,15 @@
 ---
-swagger: "3.0"
+swagger: "2.0"
 info:
-  description: "API de Cadastro de Produtos - Nova versao"
+  description: "API de Cadastro de Produtos - Nova versao 3.0.0"
   version: "3.0.0"
-  title: "Cadastro de Produtos"
+  title: "Cadastro de Produtos - nova versao 3.0.0"
   contact:
     email: "fabricio@veronez.dev"
 paths:
   /read:
     get:
-      description: "Verificação se a aplicação está pronta 3.0.0"
+      description: "Verificação se a aplicação está pronta 3.0.0" 
       responses:
         "200":
           description: "Status pronto"
