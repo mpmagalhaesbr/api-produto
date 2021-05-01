@@ -9,7 +9,7 @@ info:
 paths:
   /read:
     get:
-      description: "Verificação se a aplicação está pronta"
+      description: "Verificação se a aplicação está pronta 3.0.0"
       responses:
         "200":
           description: "Status pronto"
