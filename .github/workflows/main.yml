@@ -33,7 +33,7 @@ jobs:
           push: true
           tags:
             mpmagalhaesbr/api-bootcamp-produto:latest
-            mpmagalhaesbr/api-bootcamp-produto:${{github.run_number}}
+            #mpmagalhaesbr/api-bootcamp-produto:${{github.run_number}}
             
 
   CD:
