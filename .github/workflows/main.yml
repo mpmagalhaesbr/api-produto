@@ -31,9 +31,9 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             mpmagalhaesbr/api-bootcamp-produto:latest
-            #mpmagalhaesbr/api-bootcamp-produto:${{github.run_number}}
+            mpmagalhaesbr/api-bootcamp-produto:${{github.run_number}}
             
 
   CD:
@@ -56,3 +56,10 @@ jobs:
           manifests: |
             k8s/mongodb/deployment.yaml
             k8s/mongodb/service.yaml
+
+      - name: Deploy Api
+        uses: Azure/k8s-deploy@v1.3
+        with:
+          manifests: 
+            k8s/api/deployment.yaml
+
