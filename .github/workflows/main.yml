@@ -38,4 +38,3 @@ jobs:
           tags:
             mpmagalhaesbr/api-bootcamp-produto:latest
             mpmagalhaesbr/api-bootcamp-produto:${{github.run_number}}
-
