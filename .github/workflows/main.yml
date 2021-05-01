@@ -36,6 +36,6 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags:
-            mpmagalhaesbr/api-bootcamp-produto:lastest
+            mpmagalhaesbr/api-bootcamp-produto:latest
             mpmagalhaesbr/api-bootcamp-produto:${{github.run_number}}
 
